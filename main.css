@@ -15,7 +15,7 @@
 }
 
 body {
-  height: 380vh;
+  height: 400vh;
   max-width: 100%;
   background: black;
 }
@@ -209,7 +209,7 @@ h2 {
 
 @media (max-width: 1000px) {
   .loading-text .char {
-    font-size: 80px;}
+    font-size: 60px;}
 }
 
 /* end home */
@@ -340,14 +340,14 @@ h2 {
   }
 
   #profile {
-    height: 140vh;
+    height: 150vh;
   }
 }
 /* end profile */
 
 /* certificate */
 #certificate {
-  height: 90vh;
+  height: 120vh;
   margin: 0 auto;
   margin-top: 25vh;
   align-items: center;
