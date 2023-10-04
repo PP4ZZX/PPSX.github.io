@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
 
 * {
-  margin: 0 auto;
-  padding: 0 auto;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing:border-box;
@@ -207,10 +207,7 @@ h2 {
    }
 }
 
-@media (max-width: 720px) {
-  .loading-text .char {
-    font-size: 60px;}
-}
+
 
 /* end home */
 
@@ -329,24 +326,7 @@ h2 {
   transform: translateY(-10px); /* ขยับขึ้นข้างบน 10px เมื่อ hover */
 }
 
-@media (max-width: 720px) {
-  .container {
-    flex-direction: row;
-  }
 
-  .box {
-    width: 700px;
-    height: 1000px;
-  }
-
-  #profile {
-    height: 150vh;
-  }
-
-  #certificate {
-    padding-top: 30vh;
-  }
-}
 /* end profile */
 
 /* certificate */
@@ -561,3 +541,25 @@ h2 {
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /* end certificate */
+@media (max-width: 720px) {
+  .loading-text .char {
+    font-size: 60px;}
+}
+@media (max-width: 720px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .box {
+    width: 700px;
+    height: 1000px;
+  }
+
+  #profile {
+    height: 2200px;
+  }
+
+  #certificate {
+    padding-top: 30vh;
+  }
+}
