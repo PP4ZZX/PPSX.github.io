@@ -13,7 +13,7 @@
 }
 
 body {
-  height: 400vh;
+  height: 450vh;
   min-width: 700px;
   background: black;
 }
@@ -558,6 +558,6 @@ h2 {
   }
 
   #certificate {
-    padding-top: 30vh;
+    padding-top: 50vh;
   }
 }
