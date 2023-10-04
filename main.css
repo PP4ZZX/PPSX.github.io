@@ -16,7 +16,7 @@
 
 body {
   height: 400vh;
-  max-width: 100%;
+  min-width: 700px;
   background: black;
 }
 
@@ -207,7 +207,7 @@ h2 {
    }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 720px) {
   .loading-text .char {
     font-size: 60px;}
 }
@@ -329,13 +329,13 @@ h2 {
   transform: translateY(-10px); /* ขยับขึ้นข้างบน 10px เมื่อ hover */
 }
 
-@media (max-width: 800px) {
+@media (max-width: 720px) {
   .container {
     flex-direction: row;
   }
 
   .box {
-    min-width: 720px;
+    width: 700px;
     height: 1000px;
   }
 
@@ -347,7 +347,7 @@ h2 {
 
 /* certificate */
 #certificate {
-  height: 120vh;
+  height: 100vh;
   margin: 0 auto;
   margin-top: 25vh;
   align-items: center;
