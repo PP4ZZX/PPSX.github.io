@@ -152,7 +152,7 @@ h2 {
     animation: loading-text 2s infinite ease-in-out;
     display: inline-block;
     color: #fff;
-    font-size: 120px;
+    font-size: 100px;
 }
 .loading-text .char:nth-child(1) {
     animation-delay: 0.9s;
