@@ -543,7 +543,7 @@ h2 {
   .loading-text .char {
     font-size: 60px;}
 }
-@media (max-width: 720px) {
+@media (max-width: 1080px) {
   .container {
     flex-direction: row;
   }
