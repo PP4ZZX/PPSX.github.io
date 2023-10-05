@@ -560,4 +560,9 @@ h2 {
   #certificate {
     padding-top: 10vh;
   }
+
+  .slider__contents img {
+    width: 550px;
+    height: 400px;
+  }
 }
