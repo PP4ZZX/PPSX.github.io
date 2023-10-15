@@ -13,7 +13,7 @@
 }
 
 body {
-  height: 420vh;
+  height: 350vh;
   min-width: 700px;
   background: black;
 }
@@ -271,7 +271,7 @@ h2 {
   margin-bottom: 3vh;
   text-align: center;
   height: 6vh;
-  color: #fff;
+  color: #F04D21;
   font-size: 40px;
 }
 
@@ -302,11 +302,8 @@ h2 {
 
 .box-skills {
   height: 100%;  
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
-  column-gap: -3vw;
-  row-gap: 5vh;
-
+  display: flexbox;
+  text-align: center;
 }
 
 .box-skills .cover {
@@ -315,8 +312,8 @@ h2 {
 
 .box-skills img{
   margin: auto;
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
 }
 
 .box-skills img:hover {
@@ -416,5 +413,9 @@ h2 {
   .slider__contents img {
     width: 550px;
     height: 400px;
+  }
+
+  body {
+    height: 420vh;
   }
 }
